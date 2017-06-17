@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="js/vendors/jquery-3.2.1.js"></script>
+<script src="node_modules/underscore/underscore-min.js"></script>
+<script src="node_modules/backbone/backbone-min.js"></script>
+<script src="node_modules/backbone.marionette/lib/backbone.marionette.min.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+
+<script type="text/template" id="generate-form-main-template">
+    <label for="form-name">Название отчёта:</label><input id="form-name" type="text" value=""/>
+    <p>Основная функция (1ый уровень):</p><div id="choose-main-func-region"></div>
+    <p>Дополнительная функция (2ой уровень/callback):</p><div id="choose-callback-func-region"></div>
+    <button id="add-column-btn">Add column</button>
+    <div id="add-columns-region"></div>
+    <button id="save-btn">Save</button>
+</script>
+<script src="js/assets/index.js"></script>
+
+</html>
